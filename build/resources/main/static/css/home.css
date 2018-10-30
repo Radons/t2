@@ -1,0 +1,161 @@
+body,ul{
+    padding: 0;
+    margin: 0;
+    background-color: #F3F3FA;
+    font: 10px normal Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+#wrap{
+    width: 80%;
+    height: 666px;
+    background-color:#F3F3FA;
+    position: relative;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+#main_menu{
+    width: 100%;
+
+   /* border: 2px solid seagreen;*/
+    min-width: 800px;
+    margin: 0 auto;
+}
+#topNav {
+    margin: 0; padding: 0;
+    float: left;
+    width: 100%;
+    list-style: none;
+    position: relative;
+    font-size: 13px;
+    background:#31adfc;
+
+}
+#topNav li {
+    float: left;
+    margin: 0; padding: 0;
+    border-right: 1px solid #ffffff;
+}
+#topNav li a {
+    padding: 10px 15px;
+    display: block;
+    color:#ffffff;
+    text-decoration: none;
+}
+#topNav li:hover {
+    background: #1376c9
+}
+#topNav li span {
+    float: left;
+    padding: 15px 0;
+    position: absolute;
+    left: 0;
+    top:35px;
+    display: none;
+    width: 100%;
+    background: #ffffff;
+    font-size: 10px;
+    border: 1px solid #31adfc;
+
+    -moz-border-radius-bottomright: 5px;
+    -khtml-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -khtml-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+}
+#topNav li:hover span {
+     display: block;
+}
+#topNav li span a {
+    color: #31adfc;
+    display: inline;
+}
+#topNav li span a:hover {
+    color: #31adfc;
+    font-weight: bold;
+
+}
+
+/**************** 登录用户信息  *******************************/
+#logonRole,#detailMenu ul li p ,#logout{
+    width: 100%;
+    height: 80px;
+    font-size: 10px;
+     text-decoration: none;
+    background-color: #F3F3FA;
+    color: gray;
+}
+#logout{
+	margin-left:20px;
+	  color: #31adfc;
+	}
+#logonRole{
+	line-height: 40px;
+}
+
+#detailMenu ul li p{
+	line-height: 25px;
+	text-indent: 2em
+	}
+
+/*********************左边具体菜单**************************************************/
+#detailMenu{
+    width: 20%;
+    height: 75%;
+    background-color: #ffffff;
+    float: left;
+    color: black;
+}
+
+#detailMenu ul{
+    margin-top: 40px;
+    border: 1px dotted skyblue;
+    height: 150px;
+
+}
+
+#detailMenu ul li {
+    list-style:none;
+}
+
+#detailMenu ul li a {
+    text-align:left;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 30px;
+    color: #31adfc;
+    margin: 0 auto;
+    border-top: 1px #ffffff solid;
+    line-height: 30px;
+}
+
+
+#content{
+    width: 78%;
+    height: 75%;
+    background-color: #ffffff;
+    float: right;
+    margin:0 auto;
+}
+
+#showData {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 26px;
+    border: 1px solid skyblue;
+    text-align:center;
+    padding-top:50px;
+    padding-left:120px;
+
+
+}
+#showData img{
+    width: 100%;
+    height: 100%;
+}
+
+

@@ -1,0 +1,69 @@
+#title{
+    width: 100%;
+    height: 80px;
+    
+}
+#title p{
+     font-size: 16px;
+    font-family: "Microsoft YaHei" ;
+    float: left;
+}
+.first-hr{
+    color: gray;
+    border: 1px;
+    border-style:solid;
+
+}
+
+table{
+	margin-top:30px;    
+     text-align: center;
+     font-size: 12px;
+     margin: 0;
+     padding: 0;
+
+ }
+
+ table tr{
+     height: 30px;
+ }
+
+ table td,table th{
+     margin: 0;
+     padding: 0;
+     width: 120px;
+   
+ }
+table a{
+  	color:slategrey;
+     text-decoration: none;
+     
+     margin-left:10px
+  }
+   
+ #show-page{
+    width:400px;
+    height:  30px;
+    float:left;
+    text-align:center;
+    padding-top:20px;    
+ 
+ }  
+ #show-page a{
+   	color:slategrey;
+    text-decoration: none;
+ }
+ #deleteMsg{
+ 	display: block;
+	  
+	 width: 100px;
+	  height: 20px;
+	  margin-left: 210px;
+ }
+  
+ 
+   
+   
+   
+   
+   
