@@ -51,22 +51,26 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
     		.and()
     		.authorizeRequests()
     		.antMatchers("/admin/**").authenticated()
+    		.antMatchers("/actuator/**").authenticated()
     		//.hasRole("admin")
-    		.antMatchers("/","/home","/login").permitAll()
+    		.antMatchers("/","/home","/login","/holidayService/**","/holidayService","/ws","/ws/**").permitAll()
     		.anyRequest().permitAll()
     		.and()
-    		.formLogin();
+    		.formLogin()
+    		.and()
+    		.csrf().disable();
 /*    			.loginPage("/login")
     			.usernameParameter("userName")
     		 	.passwordParameter("userPwd")
     		 	.defaultSuccessUrl("/home")
     		.and()
-    		.csrf();*/
+    		;*/
     		
     }
     @Override
     public void configure(WebSecurity web) throws Exception {
         web
+        
                 .ignoring()
                 .antMatchers("/resources/**", "/static/**", "/css/**", "/js/**", "/images/**");
     }
